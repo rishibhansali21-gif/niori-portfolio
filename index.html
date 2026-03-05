@@ -271,10 +271,21 @@
     color: var(--mid); line-height: 1.8;
     margin-bottom: 24px;
   }
-  .service-price {
-    font-size: 13px; font-weight: 500;
+  .service-enquire {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--green-pale);
     color: var(--green);
+    border: 1px solid var(--green-mid);
+    padding: 10px 20px;
+    font-size: 13px; font-weight: 500;
     letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .service-enquire:hover {
+    background: var(--green);
+    color: var(--white);
+    border-color: var(--green);
   }
 
   /* Work / Case Studies */
@@ -644,19 +655,19 @@
       <div class="service-icon">🎬</div>
       <h3 class="service-card-title">Monthly Reel Package</h3>
       <p class="service-card-desc">8 premium product reels per month — fully edited, captioned, and ready to post. Scroll-stopping content that drives DMs and dealer inquiries.</p>
-      <span class="service-price">Starting ₹15,000/month</span>
+      <a href="https://wa.me/919328299848?text=Hi%20Niori%2C%20I%27m%20interested%20in%20the%20Monthly%20Reel%20Package.%20Can%20you%20share%20more%20details%3F" target="_blank" class="service-enquire">💬 Enquire on WhatsApp →</a>
     </div>
     <div class="service-card reveal">
       <div class="service-icon">📱</div>
       <h3 class="service-card-title">Full Social Media Management</h3>
       <p class="service-card-desc">We handle your entire Instagram — content creation, posting schedule, captions, hashtags, and monthly performance review.</p>
-      <span class="service-price">Starting ₹25,000/month</span>
+      <a href="https://wa.me/919328299848?text=Hi%20Niori%2C%20I%27m%20interested%20in%20Social%20Media%20Management.%20Can%20you%20share%20more%20details%3F" target="_blank" class="service-enquire">💬 Enquire on WhatsApp →</a>
     </div>
     <div class="service-card reveal">
       <div class="service-icon">🎥</div>
       <h3 class="service-card-title">Ad Film Editing</h3>
       <p class="service-card-desc">Professional ad film edits that make your fabric, texture, and quality feel premium on screen. Ideal for launches and seasonal campaigns.</p>
-      <span class="service-price">Per project basis</span>
+      <a href="https://wa.me/919328299848?text=Hi%20Niori%2C%20I%27m%20interested%20in%20Ad%20Film%20Editing.%20Can%20you%20share%20more%20details%3F" target="_blank" class="service-enquire">💬 Enquire on WhatsApp →</a>
     </div>
   </div>
 </section>
@@ -775,8 +786,8 @@
     <h2 class="cta-title">Let's make your first<br>free reel together</h2>
     <p class="cta-sub">No commitment. We'll edit one reel for your brand — completely free.<br>If you love it, we talk. If not, you keep the reel.</p>
     <div class="cta-actions">
-      <a href="https://wa.me/91XXXXXXXXXX" class="btn-white">WhatsApp Us →</a>
-      <a href="mailto:hello.niori@gmail.com" class="btn-outline-white">hello.niori@gmail.com</a>
+      <a href="https://wa.me/919328299848?text=Hi%20Niori%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." class="btn-white">WhatsApp Us →</a>
+      <a href="/cdn-cgi/l/email-protection#c4aca1a8a8abeaaaadabb6ad84a3a9a5ada8eaa7aba9" class="btn-outline-white"><span class="__cf_email__" data-cfemail="87efe2ebebe8a9e9eee8f5eec7e0eae6eeeba9e4e8ea">[email&#160;protected]</span></a>
     </div>
   </div>
 </section>
@@ -791,7 +802,7 @@
       <p class="footer-tagline">Content Agency for Surat Textile Brands</p>
     </div>
     <div class="footer-contact">
-      <a href="mailto:hello.niori@gmail.com">hello.niori@gmail.com</a>
+      <a href="/cdn-cgi/l/email-protection#1b737e7777743575727469725b7c767a727735787476"><span class="__cf_email__" data-cfemail="f098959c9c9fde9e999f8299b0979d91999cde939f9d">[email&#160;protected]</span></a>
       <a href="#">Instagram — @niori.co</a>
       <a href="#">Surat, Gujarat</a>
     </div>
@@ -802,16 +813,4 @@
   </div>
 </footer>
 
-<script>
-  const reveals = document.querySelectorAll('.reveal');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 80);
-      }
-    });
-  }, { threshold: 0.08 });
-  reveals.forEach(el => observer.observe(el));
-</script>
-</body>
-</html>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></sc
